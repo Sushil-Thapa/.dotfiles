@@ -59,7 +59,7 @@ ZSH_THEME="schminitz"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  git python
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,3 +106,4 @@ alias sudo='sudo '
 export VTE_VERSION="100"
 
 source ~/.oh-my-zsh/plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
+export TERM=xterm-256color
