@@ -107,3 +107,8 @@ export VTE_VERSION="100"
 
 source ~/.oh-my-zsh/plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM=xterm-256color
+
+if [ -z "$TMUX" ]
+then
+    tmux attach -t fuse || tmux new -s fuse
+fi
