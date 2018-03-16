@@ -96,7 +96,6 @@ eval $(thefuck --alias)
 
 # Open new tab in current directory
 [[ -f /etc/profile.d/vte.sh ]] && . /etc/profile.d/vte.sh
-PATH=$PATH:~/miniconda2/bin
 #pbcopy & pbpaste aliases
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
