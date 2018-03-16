@@ -109,3 +109,7 @@ source ~/.oh-my-zsh/plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM=xterm-256color
 
 
+# added by Miniconda3 installer
+export PATH="/home/zeus/miniconda3/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
