@@ -107,8 +107,11 @@ export VTE_VERSION="100"
 source ~/.oh-my-zsh/plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
 export TERM=xterm-256color
 
-
-# added by Miniconda3 installer
-export PATH="/home/zeus/miniconda3/bin:$PATH"
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#DIRCLOLORS
+eval `dircolors /home/zeus/.dir_colors/dircolors`
+
+#Added by conda
+. /home/zeus/miniconda3/etc/profile.d/conda.sh
+conda activate py3
