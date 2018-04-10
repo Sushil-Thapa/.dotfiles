@@ -1,8 +1,5 @@
 # DOTFILES REPO
-========
-
 My zsh, tmux, neovim and i3 configurations.
-
 ---
 
 ## Screenshot
