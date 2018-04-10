@@ -16,7 +16,7 @@ My zsh, tmux, neovim and i3 configurations.
 2. [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 3. [Tmux](https://github.com/tmux/tmux)
 
-### Set Using Git
+### Setup Using Git
 
 You can clone the repository wherever you want. (I like to keep it in `~/.dotfiles`)
 
@@ -28,10 +28,9 @@ source install.sh
 
 ## Feedback
 
-Suggestions/improvements
-[welcome](https://github.com/iSushil/.dotfiles/issues)!
+Suggestions/improvements are [welcome](https://github.com/iSushil/.dotfiles/issues)!
 
 ## Thanks
 
 * @mathias and [his OSX Setup](https://github.com/mathiasbynens/dotfiles)
-* [@abiosoft] and his beautiful [dotfiles repository](https://github.com/abiosoft/dotfiles)
+* @abiosoft and his beautiful [dotfiles repository](https://github.com/abiosoft/dotfiles)
