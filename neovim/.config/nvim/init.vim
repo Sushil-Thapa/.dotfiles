@@ -730,7 +730,6 @@ let g:python3_host_prog = '/home/zeus/miniconda3/envs/py3/bin/python'
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
-let g:deoplete#sources#go#gocode_binary = '/Users/zeus/go/bin/gocode'
 let g:deoplete#ignore_sources = {}
 let g:deoplete#ignore_sources._ = ['buffer', 'member', 'file', 'neosnippet', 'around']
 
@@ -780,3 +779,5 @@ autocmd BufWritePost *.dart :DartFmt
 " fix quickfix height
 autocmd FileType qf 3wincmd_
 
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
